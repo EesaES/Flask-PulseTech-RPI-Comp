@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block content %}
+<html>
+<body>
+  <div class="shadow P-3 mb-5 bg-body rounded something"></br>
+    <h1 class="titlelarge" id="title">The Gauntlet</h1>
+      <a href="{{ url_for('product')}}" style="text-decoration:none; color:black;" >
+        <h3>Built Smart. Built Better.</h3></br>
+      </a>
+    <img src="/static/images/imgcrop.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%; transform:rotate(30deg);
+"></img>
+  </div>
+
+<div class="about-section" id="abouttitle">
+  <h1 id="title">About Us</h1><br>
+  <p>Welcome to PulseTech. We are a team of Passionate individuals who are dedicated to Providing the best Possible services to our clients. Our Engineers and Designers are committed to delivering high-quality Products and exceptional customer service.</p>
+</div>
+</br>
+
+<h1 class="meat" style="text-align:center" id="meet">Meet The Team</h1><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/static/images/eesa.jpg" alt="Eesa" style="width:100%">
+      <div class="container">
+      </br>
+        <h2>Eesa S</h2>
+        <p class="title">CEO & Coder</p>
+        <p>I'm abit bossy.</p>
+        <p></p>
+        <a href="{{ url_for('eesa')}}">
+          <p><button class="button1">About Eesa</button></p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/static/images/benji.jpg" alt="Benji" style="width:100%">
+      <div class="container">
+        </br>
+        <h2>Benji H</h2>
+        <p class="title">Programmer</p>
+        <p>I love coding.</p>
+        <p></p>
+        <a href="{{ url_for('benji')}}">
+          <p><button class="button1">About Benji</button></p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/static/images/jenson1.jpg" alt="jesnson" style="width:100%">
+      <div class="container">
+        </br>
+        <h2>Jenson C</h2>
+        <p class="title">Designer & Photographer</p>
+        <p>I am always busy</p>
+        <p></p>
+        <a href="{{ url_for('jenson')}}">
+          <p><button class="button1">About Jenson</button></p>
+        </a>      
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-secondary backtotop" onclick="topFunction()" id="backtotop"><i class="fa fa-solid fa-chevron-up backtotop-arrow"></i></button>
+</body>
+</html>
+{% endblock content %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Infomation Card:</h1>
+<br/>
+
+<div class="card">
+<div class="card-header">
+<h4>Is this item missing? <a href="{{ url_for('missing')}}" style="text-decoration:none; color:black;" >
+    Click Here:
+  </a></h4>
+</div>
+<div class="card-body">
+<p class="card-text">
+
+<div class="container">
+<div class="row">
+    <div class="col-8">
+      <p>The <b>Infomation Card</b> is a small, plastic card that has important Infomation anout you <b>Product</b> on it. Please do not lose this card. It is <b>important to keep this card</b> for the future. The card should have the following information: <b>Product Name, Manufacture Date, Product Brand, Product Manufacturer and IMEI Number</b>. Please note that this information should not be <b>shared with anyone</b>. If you lose this card, you will have to <b>contact Customer Support</b>.</p>
+      <p>Your Item Should Look Like This:</p>
+      <img src="static/images/infocard.png" alt="InfoCard" width="600" height="400">
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</br>
+{% endblock content %}

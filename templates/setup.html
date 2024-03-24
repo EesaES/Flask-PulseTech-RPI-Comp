@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Setting Up:</h1>
+<br/>
+
+<div class="card">
+  <div class="card-header">
+    <h4>Items Included:</h4>
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <a href="{{ url_for('module') }}">
+              <li style="text-decoration:none; color:black;"  class="list-group-item list-group-item-light">Module</li>
+            <br/>
+            <a href="{{ url_for('charger') }}">
+              <li style="text-decoration:none; color:black;" class="list-group-item list-group-item-light">Charger</li>
+            <br/>
+            <a href="{{ url_for('infocard') }}">
+              <li style="text-decoration:none; color:black;" class="list-group-item list-group-item-light">Card</li>
+            <br/>
+            </a>
+            </a>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<br/>
+              
+<div class="card">
+  <div class="card-header">
+    <h4>Set it Up:</h4>
+  </div>
+  <div class="card-body">
+      <div class="container">
+        The Gautnlet doesn't require to much setup. All you need to do is connect to the wifi and open our website. Once you have done that, you can access your health data.
+      </br>
+      ***PLEASE NOTE THIS PAGE IS CURRENTLY UNDER DEVELOPMENT***
+      </div>
+  </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Module:</h1>
+<br/>
+
+<div class="card">
+<div class="card-header">
+<h4>Is this item missing? <a href="{{ url_for('missing')}}" style="text-decoration:none; color:black;" >
+    Click Here:
+  </a></h4>
+</div>
+<div class="card-body">
+<p class="card-text">
+
+<div class="container">
+<div class="row">
+    <div class="col-8">
+      <p>The <b>Module</b> is a small, portable device that can be used to monitor your <b>heart rate</b>, <b>temperature</b>, and other health metrics. We are upto date with the latest <b>technology</b> and are able to provide you with the most <b>accurate information</b>. To get started, simply <b>plug in the module</b>. Then attach it to your hand and start tracking your health metrics. To access your health data, simply click on the <b>white button</b> on the device. Register or Login to our website to access your health data. Please note this data <b>should not be used for any medical diagnoses</b></p>
+      <p>Your Item Should Look Like This:</p>
+      <img src="/static/images/imgcrop.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;
+        "></img>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</br>
+{% endblock content %}

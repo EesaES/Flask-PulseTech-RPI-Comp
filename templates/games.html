@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="about-section" id="abouttitle">
+  <h1 class="titlelarge" id="title">Play Some Games</h1>
+</div>
+</br>
+
+<div class="card">
+<div class="card-body">
+<p class="card-text">
+
+<div class="container">
+  <div class="row">
+      <div class="col-8">
+      <a href="{{ url_for('blockjump') }}">
+          <li style="text-decoration:none; color:black;" class="list-group-item list-group-item-light">Block Jump</li>
+      </a>
+      <br/>
+      <a href="{{ url_for('bubble') }}">
+          <li style="text-decoration:none; color:black;" class="list-group-item list-group-item-light">Bubble</li>
+      </a>
+      <br/>
+      <a href="{{ url_for('doodle') }}">
+          <li style="text-decoration:none; color:black;" class="list-group-item list-group-item-light">Doodle</li>
+      </a>
+      <br/>
+      <a href="{{ url_for('pong') }}">
+          <li style="text-decoration:none; color:black;" class="list-group-item list-group-item-light">Ping Pong</li>
+      </a>
+      <br/>
+      <a href="{{ url_for('tetris') }}">
+          <li style="text-decoration:none; color:black;" class="list-group-item list-group-item-light">Tetris</li>
+      </a>
+      <br/>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+</br></br></br></br></br>
+        
+{% endblock content %}

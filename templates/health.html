@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+<html>
+<body>
+
+<div class="about-section" id="abouttitle">
+  <h1 class="titlelarge" id="title">Health Page</h1>
+  <h2>Infomation From the Gauntlet</h2>
+</div>
+</br>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+    </br>
+      <h3><center>{{average}}</center></h3>
+    </br>
+      <div class="container">
+        <h2>Average Heartrate</h2>
+        <p class="title">From Gauntlet</p>
+        <p style="color:{{color}}">{{warning}}</p>
+        <a href="https://www.bhf.org.uk/informationsupport/how-a-healthy-heart-works/your-heart-rate#SLOW">
+          <p><button class="button1">More Info</button></p>
+        </a> 
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    </br><img src="/static/images/hrwkavgpt.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;"></img></br>
+      <div class="container">
+        <h2>Weekly Heartrate</h2>
+        <p class="title">From Past Week</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <a href="https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-check-my-pulse/#:~:text=Most%20adults%20have%20a%20resting,40%20to%2060bpm%2C%20or%20lower.">
+          <p><button class="button1">More Info</button></p>
+        </a> 
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">     
+      </br><h5><center>{{advice}}</center></br></h5>
+        <h2>Advice</h2>
+        <p class="title">From PulseTech</p>
+        <p>We have collected data from the Web and displayed it here.</p>
+        <a href="https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-check-my-pulse/#:~:text=Most%20adults%20have%20a%20resting,40%20to%2060bpm%2C%20or%20lower.">
+          <p><button class="button1">More Info</button></p>
+        </a> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="shadow p-3 mb-5 bg-body rounded something">
+  <h1>The Gauntlet</h1>
+    <a href="{{ url_for('product')}}" style="text-decoration:none; color:black;" >
+      <h3>Built Smart. Built Better.</h3>
+    </a>
+  <img src="/static/images/imgcrop.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%; transform:rotate(30deg);
+    "></img>
+</div>
+</body>
+</html>
+{% endblock content %}

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="meat" style="text-align:center" id="meet">Eesa</h1><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/static/images/eesa.jpg" alt="Eesa" style="width:100%">
+      <div class="container">
+      </br>
+        <h2>Eesa S</h2>
+        <P class="title">CEO & Coder</P>
+        <P>I'm abit bossy</P>
+        <a href="{{ url_for('index')}}">
+          <P><button class="button1">Go Back</button></P>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    </br>
+      <div class="container">
+        <h2>My Future</h2>
+        <p>Hello There, as I am the Project Manager I have learn't alot. From Team Meetings to Filming I have been able to develop my skills. I plan on becoming an Engineer as I find a passion for building and coding aswell as planning. As excpected there were lots of problems I have faced when it comes to working in a team. However, since a part of team management is learning to overcome problems. I have learn't an incrediible amount of skills from PulseTech.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    </br>
+      <div class="container">
+        <h2>PulseTech</h2>
+        <p>The future of the Gauntlet is high. There are alot of things you can do with a simple Heartrate monitor and it brings me joy knowing that it can be used to improve peoples health when they might not be able to afford a high end product from apple just to make sure they can track their Health. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

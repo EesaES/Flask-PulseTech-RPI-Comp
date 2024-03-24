@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Charger:</h1>
+<br/>
+
+<div class="card">
+<div class="card-header">
+<h4>Is this item missing? <a href="{{ url_for('missing')}}" style="text-decoration:none; color:black;" >
+    Click Here:
+  </a></h4>
+</div>
+<div class="card-body">
+<p class="card-text">
+
+<div class="container">
+<div class="row">
+    <div class="col-8">
+      <p>There is no current charger or battery in The Gauntlet</p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</br>
+{% endblock content %}

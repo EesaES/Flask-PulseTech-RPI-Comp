@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1>This is a testing page:</h1>
+    <p><strong>Blah blah blah.</strong><br>-Blah blah blah.</p>
+    <div id="text">
+      <label for="test">Test:</label>
+      <input id="test" type="text" name="test"><br><br>
+      <label for="password">Test:</label>
+      <input id="password" type="password" name="password"><br><br>
+    </div>
+    <div id="radio">
+      <label for="a">A:</label>
+      <input id="a" type="radio" name="a">
+      <label for="b">B:</label>
+      <input id="b" type="radio" name="a">
+      <label for="c">C:</label>
+      <input id="c" type="radio" name="a"><br><br>
+    </div>
+    <div id="checkbox">
+      <label for="1">1:</label>
+      <input id="1" type="checkbox" name="1">
+      <label for="2">2:</label>
+      <input id="2" type="checkbox" name="2">
+      <label for="3">3:</label>
+      <input id="3" type="checkbox" name="3"><br><br>
+    </div>
+    <div>
+      <label for="range">Range:</label>
+      <input id="range" type="range" name="range" min="0" max="10" step="1"><br><br>
+    </div>
+    <div id="date">
+      <label for="datetimelocal">Date:</label>
+      <input id="datetimelocal" type="datetime-local" name="datetimelocal"><br><br>
+      <label for="date">Date:</label>
+      <input id="date" type="date" name="date"><br><br>
+    </div>
+  </body>
+</html>
+
+{% endblock %}

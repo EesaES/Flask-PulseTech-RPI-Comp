@@ -1,0 +1,241 @@
+/* Gauntlet Styles */
+
+
+.titlelarge {
+  font-size: 64px;
+}
+
+.titlemedium {
+  font-size: 48px;
+}
+
+.titlesmall {
+  font-size: 32px;
+}
+
+.textlarge {
+  font-size: 24px;
+}
+
+.textmedium {
+  font-size: 16px;
+}
+
+.textsmall {
+  font-size: 8px;
+}
+
+.brextralarge {
+  display: block; 
+  margin-bottom: 2em; 
+}
+
+.brlarge { 
+  display: block; 
+  margin-bottom: 1.5em; 
+}
+
+.brmedium { 
+  display: block; 
+  margin-bottom: 1em; 
+}
+
+.brsmall { 
+  display: block; 
+  margin-bottom: 0.5em; 
+}
+
+.width {
+  margin: auto;
+  width: 100%;
+}
+
+.leftbutton {
+  float: left;
+}
+
+.rightbutton {
+  float: right;
+}
+
+.orange {
+  color: orange;
+}
+
+.backtotop {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+.backtotop-arrow {
+  font-size: 25px
+}
+
+/* End of Gauntlet Styles */
+
+.h1 {
+  color: black;
+  font-size:40px;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+#demo{
+  font-size: 12px;
+  color: black;
+}
+
+#big {
+  font-size: 28px;
+}
+
+#medium {
+  font-size: 18px;
+}
+
+.content {
+  text-align: left;
+}
+
+.meat {
+  font-size: 50px
+}
+
+.something {
+  text-align: center
+}
+/* Style for About */
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column4 {
+  float: left;
+  width: 60%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column5 {
+  float: left;
+  width: 40%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column6 {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+  margin-bottom: 1rem;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* About Pages */
+
+.column1 {
+  float: center;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.container1 {
+  padding: 0 16px;
+  margin-bottom: 1rem;
+}
+
+/*Footer*/
+.footer {
+  position: flex;
+  left: 0;
+  bottom: 0;
+  height: 75px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}

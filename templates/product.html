@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<html>
+  <body id="body">
+    <!-- Title -->
+  
+    <div class="shadow P-3 mb-5 bg-body rounded something"></br>
+      <h1 class="titlelarge" id="title">The Gauntlet</h1>
+        <a href="{{ url_for('product')}}" style="text-decoration:none; color:black;" >
+          <h3>Built Smart. Built Better.</h3></br>
+        </a>
+      <img src="/static/images/imgcrop.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%; transform:rotate(30deg);
+    "></img>
+    </div>
+  
+  <div class="column2">
+    <div class="card">
+      <div class="container">
+      </br>
+        <h2>What is the Gauntlet?</h2>
+          <p>The Gauntlet is our latest device. It accurately measures your heartbeat and displays on the health page. The Gauntlet is a glove like design that can be worn on your hand as a daily device. Also, we have added button, this is were you can upload your data and view it on our website. The Gauntlet is a great device for people who want to stay healthy.                             </p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+    
+  <div class="column2">
+    <div class="card">
+      <div class="container">
+      </br>
+        <h2>Our Special Features</h2>
+          <p>The boasts a range of additional features that enhance its appeal. If brought into manufacturing, we could offer customization options for the entire glove, allowing users to select their preferred color and size. The arrangement of the Gauntlet's screen can be adjusted to individual preferences. The Gauntlet remains committed to simplicity this ensures user that they are not distracted.</p
+        </a>
+      </div>
+    </div>
+  </div>
+
+  </br>
+
+    <div class="column4">
+      <div class="card">
+        <div class="container">
+        </br>
+          <h2>The Future</h2>
+            <p>Introducing The Gauntlet, our evolving heart rate monitor packed with innovative features. In the pipeline, expect a buzzer system for real-time alerts on high or low heart rates, extra sensors for comprehensive data gathering, and optional LED lights for added functionality and style. Stay tuned as we continuously enhance The Gauntlet to provide users with invaluable insights into their heart health.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="column5">
+      <div class="card">
+        <div class="container">
+        </br>
+          <h2>How is it Built?</h2>
+            <p>The Gauntlet is designed with affordability in mind, using cost-effective components to ensure accessibility for all. Its main components include a reusable glove, RPI Zero, heart rate sensor, and LCD display, making it a cheap yet accurate device suitable for widespread use.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Features -->
+    <div class="column6">
+      <div class="card">
+        <div class="container">
+        </br>
+          <h2>Have a look at our code</h2>
+            <p>Look Below. We have attached our main.py file through github. To see the entire code click here. It's quite long.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </br>
+  <div class="card">
+  </br>
+    <div class="container">
+      <h2>Source Code</h2>
+        <script src="https://gist.github.com/laura-james/dab111bce6ca3779520e30f6596e635a.js"></script>
+    </div>
+  </br>
+    <!-- Reviews -->
+    
+    <button type="button" class="btn btn-secondary backtotop" onclick="topFunction()" id="backtotop"><i class="fa fa-solid fa-chevron-up backtotop-arrow"></i></button>
+  </body>
+</html>
+{% endblock %}

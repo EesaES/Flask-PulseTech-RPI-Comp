@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="meat" style="text-align:center" id="meet">Benji</h1><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/static/images/benji.jpg" alt="Benji" style="width:100%">
+      <div class="container">
+        </br>
+        <h2>Benji H</h2>
+        <P class="title">Programmer</P>
+        <P>I love coding.</P>
+        <a href="{{ url_for('index')}}">
+          <P><button class="button1">Go Back</button></P>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    </br>
+      <div class="container">
+        <h2>My Future</h2>
+        <p>I'm Benji I in the future want to be a robotic Engineer, either creating or (more likely) coding them. I alread own a lego mindstorms 51515 and use it often to either fix small problems like the solving of a rubix cube or to just have some fun. my main passion in coding however is AI, stange and yet interesting. </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    </br>
+      <div class="container">
+        <h2>PulseTech</h2>
+        <p>I think the future is bright for Pulsetech, as it is a company that is committed to making the world a better place. I think it's a company full of determination and endless possiblites with a erge to be drive forward. There is a lot of potential for our project.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
