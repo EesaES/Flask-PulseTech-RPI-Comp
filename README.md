@@ -7,4 +7,4 @@ Setting Up The Page:
 
 **Note The Code Is In Debug Mode**
 
-This Website is made for a product called the Gauntlet. It is a small heartrate monitoring device that is amde using a LCD display, Raspberry Pi Zero and Heartrate sensor. To see the code that runs on the RPI head over to my profile.
+This Website is made for a product called the Gauntlet. It is a small heartrate monitoring device that is made using a LCD display, Raspberry Pi Zero and Heartrate sensor. To see the code that runs on the RPI head over to my profile.
